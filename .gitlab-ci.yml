@@ -1,0 +1,26 @@
+image: node:16.16.0 
+
+cache:
+  paths:
+    - ./frontend/node_modules/
+
+before_script:
+  - rm -rf ./frontend/build
+  - cd ./frontend/
+  - CI=false npm install
+
+pages:
+  stage: deploy
+  script:
+    - mkdir ../.public
+    - CI=false npm run build
+    - rm -rf ../public
+    - cp build/index.html build/404.html
+    - cd ../
+    - cp -r ./frontend/build/* .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+  - main

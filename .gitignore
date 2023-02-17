@@ -1,0 +1,7 @@
+*.sqlite3
+.env
+dev.py
+images/
+docker-compose.yml
+data/
+*.log
