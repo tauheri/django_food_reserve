@@ -4,7 +4,7 @@ Django Food Reserve Applicatin
 This is a food reserve backend application that has been developed using Django and Django rest-framework.
 It contains client and Admin parts with several APIs as below:
 
-- user signup and login
+- User sign-up and login
 - Get the menu for a date range
 - Reserve food
 - Edit and Remove reservation
