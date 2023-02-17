@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+psycopg2 = "*"
+dj-database-url = "*"
+whitenoise = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+drf-writable-nested = "*"
+pillow = "*"
+cloudinary = "*"
+django-cloudinary-storage = "*"
+python-decouple = "*"
+pandas = "*"
+xlsxwriter = "*"
+jdatetime = "*"
+persiantools = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+
+[requires]
+python_version = "3.8"
