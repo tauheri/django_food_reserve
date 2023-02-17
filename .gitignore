@@ -5,3 +5,5 @@ images/
 docker-compose.yml
 data/
 *.log
+food_reserve_backend/live-static/*
+food_reserve_backend/static/*
