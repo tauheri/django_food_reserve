@@ -17,3 +17,30 @@ It contains client and Admin parts with several APIs as below:
 
 Setup
 -------------
+
+The first thing to do is to clone the repository:
+
+```sh
+$ git clone https://github.com/thistermeh/django_food_reserve.git
+$ cd django_food_reserve
+```
+
+Create a virtual environment to install dependencies in and activate it:
+
+```sh
+$ virtualenv -p python3 foodreservenv
+$ source ~/foodreservenv/bin/activate
+```
+
+Then install the dependencies:
+
+```sh
+(foodreservenv)$ pip3 install -r requirements.txt
+```
+
+Once `pip` has finished downloading the dependencies:
+
+```sh
+(foodreservenv)$ python manage.py runserver
+```
+Now endpoints will be available at `http://127.0.0.1:8000/`
