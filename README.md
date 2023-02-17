@@ -43,4 +43,5 @@ Once `pip` has finished downloading the dependencies:
 ```sh
 (foodreservenv)$ python manage.py runserver
 ```
-Now endpoints will be available at `http://127.0.0.1:8000/`
+Now endpoints will be available at `http://127.0.0.1:8000/`.
+Each endpoint address can be found in `reserve/urls.py` file.
