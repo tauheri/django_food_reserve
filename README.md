@@ -1,4 +1,4 @@
-Django Food Reserve Applicatin
+Django Food Reserve Application
 =============
 
 This is a food reserve backend application that has been developed using Django and Django rest-framework.
